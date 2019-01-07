@@ -10,6 +10,10 @@ project adheres to [Semantic Versioning](http://semver.org/).
 * Set `horizontal_pod_autoscaling` to `true` by default. #42
 * Add `remove_default_node_pool` set to `false` by default #15
 * Allow arbitrary key-value pairs to be set on node pool metadata. #52
+* Add `enable_basic_auth` set to `true` by default #40; This will cause a plan change for existing users. Enabling it will require them to set a username and password.
+* Add `basic_auth_username` set to `""` by default #40
+* Add `basic_auth_password` set to `""` by default #40
+* Add `issue_client_certificate` set to `false` by default #40
 
 ## [v0.4.0] - 2018-12-19
 ### Added
