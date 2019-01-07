@@ -222,10 +222,9 @@ make generate_docs
 
 Integration tests are run though [test-kitchen](https://github.com/test-kitchen/test-kitchen), [kitchen-terraform](https://github.com/newcontext-oss/kitchen-terraform), and [InSpec](https://github.com/inspec/inspec).
 
-Seven test-kitchen instances are defined:
+Six test-kitchen instances are defined:
 
 - `deploy_service`
-- `disable_client_cert`
 - `node_pool`
 - `shared_vpc`
 - `simple_regional`
