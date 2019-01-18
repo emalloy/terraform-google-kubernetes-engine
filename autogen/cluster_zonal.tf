@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-// This file was automatically generated from a template in ./autogen
+{{ autogeneration_note }}
 
 /******************************************
   Create zonal cluster
@@ -36,15 +36,6 @@ resource "google_container_cluster" "zonal_primary" {
   monitoring_service = "${var.monitoring_service}"
 
   master_authorized_networks_config = "${var.master_authorized_networks_config}"
-
-  master_auth {
-    username = "${local.cluster_basic_auth_username}"
-    password = "${local.cluster_basic_auth_password}"
-
-    client_certificate_config {
-      issue_client_certificate = "${var.issue_client_certificate}"
-    }
-  }
 
   addons_config {
     http_load_balancing {

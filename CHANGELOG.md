@@ -14,6 +14,7 @@ project adheres to [Semantic Versioning](http://semver.org/).
 * Add `basic_auth_username` set to `""` by default #40
 * Add `basic_auth_password` set to `""` by default #40
 * Add `issue_client_certificate` set to `false` by default #40
+* Add `initial_node_count` parameter to node_pool block. #60 
 
 ## [v0.4.0] - 2018-12-19
 ### Added
