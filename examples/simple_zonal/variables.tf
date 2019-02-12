@@ -45,11 +45,11 @@ variable "subnetwork" {
 }
 
 variable "ip_range_pods" {
-  description = "The secondary ip range to use for pods"
+  description = "The subnet range name of the secondary ip range to use for pods"
 }
 
 variable "ip_range_services" {
-  description = "The secondary ip range to use for pods"
+  description = "The subnet range name of the secondary ip range to use for pods"
 }
 
 variable "compute_engine_service_account" {
